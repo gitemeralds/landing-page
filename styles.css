@@ -92,6 +92,10 @@ button {
   align-self: flex-end;
 }
 
+.sign-up-banner-container {
+  padding: 60px 120px;
+}
+
 .sign-up-banner {
   display: flex;
   background-color: #3882f6;
