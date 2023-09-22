@@ -34,3 +34,8 @@ ul {
   width: 100px;
   border: white solid;
 }
+
+button {
+  height: 25px;
+  width: 90px;
+}
