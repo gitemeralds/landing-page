@@ -1,4 +1,36 @@
 .header-intro-container,
 .footer {
   background-color: #1f2937;
+  color: white;
+}
+
+.header-intro-container {
+  padding: 0px 50px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.intro-container {
+  display: flex;
+  justify-content: center;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+}
+
+.placeholder-img {
+  height: auto;
+  width: 100px;
+  border: white solid;
 }
