@@ -82,3 +82,7 @@ button {
   flex-direction: column;
   background-color: #e5e7eb;
 }
+
+.quote-tag {
+  align-self: flex-end;
+}
