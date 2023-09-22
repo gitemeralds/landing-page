@@ -91,3 +91,7 @@ button {
 .quote-tag {
   align-self: flex-end;
 }
+
+.sign-up-banner {
+  display: flex;
+}
