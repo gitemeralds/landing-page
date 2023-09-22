@@ -47,6 +47,7 @@ button {
 .content-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .content {
@@ -59,4 +60,15 @@ button {
   border-color: #3882f6;
   border-width: 2px;
   border-style: solid;
+}
+
+.img-info {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 100px;
+}
+
+.info {
+  text-wrap: wrap;
 }
