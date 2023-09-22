@@ -100,4 +100,5 @@ button {
   display: flex;
   background-color: #3882f6;
   color: white;
+  padding: 30px 60px;
 }
