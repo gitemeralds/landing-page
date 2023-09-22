@@ -52,6 +52,7 @@ button {
 
 .content {
   display: flex;
+  gap: 30px;
 }
 
 .content img {
