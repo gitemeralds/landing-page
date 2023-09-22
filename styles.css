@@ -50,6 +50,7 @@ button {
   align-items: center;
   padding-top: 30px;
   padding-bottom: 60px;
+  gap: 30px;
 }
 
 .content {
@@ -74,4 +75,9 @@ button {
 
 .info {
   text-wrap: wrap;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
 }
