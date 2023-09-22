@@ -80,4 +80,5 @@ button {
 .quote-container {
   display: flex;
   flex-direction: column;
+  background-color: #e5e7eb;
 }
