@@ -62,7 +62,7 @@ button {
   border-style: solid;
 }
 
-.img-info {
+.img-and-info-container {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
