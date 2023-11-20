@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .header-intro-container,
 .footer {
   background-color: #1f2937;
@@ -101,6 +105,14 @@ button {
   background-color: #3882f6;
   color: white;
   padding: 30px 60px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 100px;
+}
+
+.banner-sign-up-button {
+  width: 75px;
+  height: 20px;
 }
 
 .footer {
