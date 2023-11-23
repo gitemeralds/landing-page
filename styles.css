@@ -1,5 +1,14 @@
+html,
 body {
+  height: 100%;
   margin: 0;
+  font-family: "Roboto", Arial;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .header-intro-container,
@@ -21,15 +30,31 @@ body {
   padding-bottom: 80px;
 }
 
+.header-logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
 ul {
   padding: 0;
   margin: 0;
+  display: flex;
+  gap: 16px;
 }
 
 .intro-container {
   display: flex;
   justify-content: center;
   gap: 30px;
+}
+
+.intro-title {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.sign-up-button {
+  margin-top: 8px;
 }
 
 .introduction {
@@ -46,6 +71,12 @@ ul {
 button {
   height: 25px;
   width: 90px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  border-width: 0;
+  border-radius: 5px;
 }
 
 .content-container {
@@ -62,12 +93,17 @@ button {
   gap: 30px;
 }
 
+.content-title {
+  font-size: 36px;
+  font-weight: bolder;
+}
 .content img {
   height: 100px;
   width: 100px;
   border-color: #3882f6;
   border-width: 2px;
   border-style: solid;
+  border-radius: 8px;
 }
 
 .img-and-info-container {
@@ -79,6 +115,7 @@ button {
 
 .info {
   text-wrap: wrap;
+  text-align: center;
 }
 
 .quote-container {
@@ -92,12 +129,24 @@ button {
   padding-top: 80px;
 }
 
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  font-family: "Roboto", arial;
+}
+
 .quote-tag {
   align-self: flex-end;
 }
 
 .sign-up-banner-container {
   padding: 60px 120px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .sign-up-banner {
