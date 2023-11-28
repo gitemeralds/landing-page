@@ -138,6 +138,7 @@ button {
 
 .quote-tag {
   align-self: flex-end;
+  font-weight: bolder;
 }
 
 .sign-up-banner-container {
@@ -160,8 +161,7 @@ button {
 }
 
 .banner-sign-up-button {
-  width: 75px;
-  height: 20px;
+  border: 2px solid white;
 }
 
 .footer {
